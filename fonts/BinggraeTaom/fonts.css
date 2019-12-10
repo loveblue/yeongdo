@@ -1,0 +1,21 @@
+@font-face {
+    font-family: 'BinggraeTaom';
+    font-style: normal;
+    font-weight: 100;
+    src: local('BinggraeTaom'),
+        url('BinggraeTaom.woff') format('woff'),
+        url('BinggraeTaom.ttf') format('truetype'),
+        url('BinggraeTaom.otf') format('opentype'),
+        url('BinggraeTaom.eot') format('embedded-opentype');
+}
+@font-face {
+    font-family: 'BinggraeTaom-Bold';
+    font-style: normal;
+    font-weight: 200;
+    src: local('BinggraeTaom-Bold'),
+        url('BinggraeTaom-Bold.woff') format('woff'),
+        url('BinggraeTaom-Bold.ttf') format('truetype'),
+        url('BinggraeTaom-Bold.otf') format('opentype'),
+        url('BinggraeTaom-Bold.eot') format('embedded-opentype');
+}
+

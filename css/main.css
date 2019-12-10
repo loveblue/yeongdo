@@ -1,0 +1,322 @@
+@charset "utf-8";
+
+#section1{
+	position:relative;
+	background:url(../images/main/main_slide.jpg);
+}
+#section1 h2{
+	text-align:left;
+	color:#fff;
+	font-weight:;
+	font-size:100px;
+	font-family: 'BinggraeTaom';
+	position:absolute;
+	z-index:5;
+	top:40%;
+	left:10%;
+	text-shadow:2px 4px 3px rgba(0,0,0,0.3)
+}
+#section1 h2 p{
+	font-weight:100;
+	font-size:60px;
+	padding-bottom:20px;
+}
+.bgLayer{
+	width:100%;
+	height:100%;
+	background:rgba(0,0,0,0.3);
+}
+.slideBtn{
+	position:absolute;
+	z-index:4;
+	bottom:50px;
+	right:70px;
+	margin-left:-130px;
+}
+.slideBtn li{
+	width:25px;
+	float:left;
+	text-indent:-9999px;
+	background:url(../images/main/slideBtnLine_off.png) no-repeat center;
+	vertical-align:middle;
+	padding:5px;
+}
+
+.slideBtn .leftBtn{
+	width:45px;
+	text-indent:-9999px;
+	background:url(../images/main/slideBtn_left.png) no-repeat center;
+}
+.slideBtn .rightBtn{
+	width:45px;
+	text-indent:-9999px;
+	background:url(../images/main/slideBtn_right.png) no-repeat center;
+}
+.slideBtn li a{
+	display:block;
+}
+
+#section2{
+	background:#024ca1;
+	color:#fff;
+}
+.sec02Box{
+	padding:120px 0;
+	box-sizing:border-box;
+	height:100%;
+	text-align:left;
+	position:relative;
+}
+
+#section2 h3{
+	writing-mode:tb-rl;
+	font-size:60px;
+	font-weight:700;
+	background:url(../images/main/ico_travel.png) no-repeat center bottom;
+	padding-bottom:100px;
+	position: absolute;
+	top: 15%;
+	left: 10%;
+}
+#section2 h4{
+	font-size:30px;
+	position: absolute;
+	top:30%;
+	left:22%;
+	z-index: 1;
+}
+#section2 h4 p{
+	font-size:56px;
+}
+#section2 h4:after{
+	content:"";
+	display:inline-block;
+	width:20%;
+	height:4px;
+	background:#fff;
+}
+.subTit{
+	font-size:26px;
+	position:absolute;
+	top:55%;
+	left:22%;
+	z-index:1;
+}
+.imgBox{
+	width:50%;
+	height:60%;
+	background:url(../images/main/bg_content_1_black.jpg) no-repeat center;
+	background-size:cover;
+	font-size:0;
+	position:absolute;
+	top:20%;
+	right:5%;
+	box-shadow:5px 2px 10px rgba(0,0,0,0.3);
+}
+#section2 .footnote{
+	font-size:14px;
+	position:absolute;
+	bottom:5%;
+	left:22%;
+	background:url(../images/main/ico_location.png) no-repeat left center;
+	padding-left:4%;
+}
+
+#section3 {
+	background:#fff;
+	position:relative;
+}
+#section3{
+	width:100%;
+	height:100%;
+	background:url(../images/main/img_03.jpg) no-repeat center center;
+	font-size:0;
+	position: relative;
+}
+#section3 .sec3Tit{
+	width:20%;
+	height:100%;
+	float:right;
+	background:#fff;
+}
+#section3 .sec3Tit h3{
+	writing-mode:tb-rl;
+	font-size:60px;
+	font-weight:700;
+	color:#024da1;
+	background:url(../images/main/ico_place.png) no-repeat center bottom;
+	background-size:80px;
+	padding-bottom:100px;
+	position: absolute;
+	top: 4%;
+	right: 14%;
+	z-index: 1;
+}
+#section3 .footnote{
+	font-size:16px;
+	color:#fff;
+	position:absolute;
+	bottom:50px;
+	left:360px;
+	z-index:1;
+	background:url(../images/main/ico_location.png) no-repeat left center;
+	padding-left:30px;
+	background-size:20px;
+}
+
+#section4{
+	
+}
+.content{
+	position:relative;
+}
+#section4 h3{
+	color:#024ca1;
+	writing-mode:tb-rl;
+	font-size:60px;
+	font-weight:700;
+	background:url(../images/main/ico_fun.png) no-repeat center bottom;
+	background-size:100px;
+	padding-bottom:100px;
+	position: absolute;
+	top: 4%;
+	left: 10%;
+	z-index: 1;
+}
+.content div{}
+
+.content .imgBox01{
+	width:100%;
+	height:500px;
+	background:url(../images/main/bg_sec4Bg01.png) no-repeat center left;
+	margin-top:200px;
+	text-align:right;
+}
+.content .imgBox01 .inner{
+	position:relative;
+}
+.imgBox01 .imgInfo{
+	width:500px;
+	height:500px;
+	background:url(../images/main/ico_restraunt.png) no-repeat center center;
+	position:absolute;
+	top:0;
+	right:0;
+	text-align: center;
+}
+.imgBox01 .imgInfo p{
+	padding-top:330px;
+}
+.imgBox01 .imgInfo span{
+	padding-left:60px;
+}
+.content .imgBox01 a{
+	display:block;
+}
+
+.content .imgBox02{
+	width:100%;
+	height:800px;
+	background:url(../images/main/bg_sec4Bg02.png) no-repeat top right;
+	margin:200px 0;
+	text-align:left;
+}
+.content .imgBox02 .inner{
+	position:relative;
+}
+.content .imgBox02 img{
+	margin-top:80px;
+}
+.imgBox02 .imgInfo{
+	width:600px;
+	height:800px;
+	background:url(../images/main/ico_hotel.png) no-repeat center center;
+	position:absolute;
+	top:0;
+	left:0;
+	text-align: center;
+}
+.imgBox02 .imgInfo p{
+	padding-top:480px;
+}
+.imgBox02 .imgInfo span{
+	padding-left:60px;
+}
+.content .imgBox02 a{
+	display:block;
+}
+
+.content .imgBox03{
+	height:600px;
+	background:url(../images/main/bg_sec4Bg03.png) no-repeat center left;
+	margin-bottom:300px;
+	position:relative;
+}
+.content .imgBox03 .inner{
+	position:relative;
+}
+.content .imgBox03 img{
+	position:absolute;
+	top:-300px;
+	right:0;
+}
+.imgBox03 .imgInfo{
+	width:500px;
+	height:600px;
+	background:url(../images/main/ico_cafe.png) no-repeat center center;
+	position:absolute;
+	top:-300px;
+	right:0;
+	text-align: center;
+}
+.imgBox03 .imgInfo p{
+	padding-top:380px;
+}
+.imgBox03 .imgInfo span{
+	padding-left:60px;
+}
+.content .imgBox03 a{
+	display:block;
+}
+
+
+.content a{
+	color:#fff;
+	display:block;
+	font-size:22px;
+}
+
+.content .day{
+	margin:200px 0;
+	color:#444;
+	line-height:42px;
+}
+.content .day .daySubTit{
+	font-size:36px;
+	font-weight:800;
+}
+.content .day .daySubIcon{
+	width:5%;
+	background:url(../images/main/ico_weather.png) no-repeat center center;
+	background-size:80%;
+	vertical-align: top;
+	text-indent: -9999px;
+	padding:20px;
+}
+
+.content .day li{
+	margin-right:1%;
+	display:inline-block;
+	text-align:left;
+	font-size:32px;
+	font-weight: 700;
+}
+.content .day li:nth-child(2n){
+	margin-right:8%;
+}
+
+#section5 {
+	background-color:#fff;
+}
+
+
